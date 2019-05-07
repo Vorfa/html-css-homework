@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,700');
+
+        /* HEADER */
+
+.header {
+    background-color: #1a1915;
+    background-image: url(../image/big-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}  
+
+
+.logo-link {
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo-link:hover {
+    transform: scale(1.05);
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-list-link {
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0);
+    padding: 10px 16px;
+    border-radius: 18px;
+}
+
+.navigation-list-link:hover {
+    border: 2px solid rgba(255,255,255,1);
+}
+
+
+.header-section {
+    text-align: center;
+}
+
+.title__container {
+    margin: 0 auto;
+}
+
+.title {
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 19px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+
+        /*MAIN*/
+
+
+.partners {
+    text-align: center;
+    padding: 70px 15px 58px 15px;
+}  
+
+.partners__title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.partners__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.partners__list_img-container {
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.partners__list_img {
+    border-radius: 50%;
+}
+
+.partners__list_img-container:after {
+    content:"";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.partners__list_img-tv:after {
+    background-image: url(../image/icons/tv.png);
+    background-color: #ff4e50;
+}
+.partners__list_img-chemistry:after {
+    background-image: url(../image/icons/chemistry.png);
+    background-color: #ffa507;
+}
+.partners__list_img-cup:after {
+    background-image: url(../image/icons/cup.png);
+    background-color: #1cd7ad;
+}
+.partners__list_img-paper-fly:after {
+    background-image: url(../image/icons/paper-fly.png);
+    background-color: #4e73db;
+}
+
+.partners__list_name {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.partners__list_info {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.partners__btn {
+    display: inline-block;
+    border: 2px solid #ff4e50;
+    border-radius: 19px;
+    background-color: #fff;
+    color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 12px 50px;
+}
+
+.partners__btn:hover {
+    transform: scale(1.05);
+}
