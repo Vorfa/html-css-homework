@@ -1,0 +1,68 @@
+.team {
+    padding: 45px 0 86px 0;
+    
+    &__info {
+        margin: 0;
+        padding: 0 120px;
+        text-align: center;
+        font-family: $secondary-font;
+        font-weight: 400;
+        font-size: 15px;
+        color: $third-font-color;
+        margin-bottom: 92px;
+    }
+
+    &__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    
+    &__item {
+        text-align: center;
+        position: relative;
+    }
+    
+    &__img-box {
+        width: 380px;
+        height: 470px;
+        -webkit-transition: -webkit-transform .2s linear,
+                    -webkit-box-shadow .2s linear;
+        transition: -webkit-transform .2s linear,
+                    -webkit-box-shadow .2s linear;
+        -o-transition: transform .2s linear,
+                    box-shadow .2s linear;
+        transition: transform .2s linear,
+                    box-shadow .2s linear;
+        transition: transform .2s linear,
+                    box-shadow .2s linear,
+                    -webkit-transform .2s linear,
+                    -webkit-box-shadow .2s linear;
+        margin-bottom: 30px;			
+    }
+    
+    &__name {
+        margin: 0;
+        padding: 0;
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $secondary-font-color;
+        margin-bottom: 15px;
+    }
+    
+    &__post {
+        margin: 0;
+        padding: 0;
+        font-family: $secondary-font;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 15px;
+        color: $third-font-color;
+    }
+}
+

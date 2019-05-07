@@ -1,0 +1,10 @@
+.header {
+	background-image: url(../images/bg-image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		background-image: url(../images/bg-image@2x.jpg);	
+	}
+}

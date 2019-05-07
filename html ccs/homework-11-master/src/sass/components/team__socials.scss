@@ -1,0 +1,91 @@
+.team__socials {
+	width: 380px;
+	height: 470px; 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(239,140,138,.9)), to(rgba(238,213,135,.9))); 
+	background-image: -webkit-linear-gradient(top, rgba(239,140,138,.9), rgba(238,213,135,.9)); 
+	background-image: -o-linear-gradient(top, rgba(239,140,138,.9), rgba(238,213,135,.9)); 
+	background-image: linear-gradient(to bottom, rgba(239,140,138,.9), rgba(238,213,135,.9));
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	opacity: 0;
+	-webkit-transition: opacity .2s linear,
+				-webkit-transform .2s linear;
+	transition: opacity .2s linear,
+				-webkit-transform .2s linear;
+	-o-transition: opacity .2s linear,
+				transform .2s linear;
+	transition: opacity .2s linear,
+				transform .2s linear;
+	transition: opacity .2s linear,
+				transform .2s linear,
+                -webkit-transform .2s linear;
+               
+                
+                &-item-margin:not(:last-child) {
+                    margin-right: 1px;
+                }
+                
+                &-link {
+                    width: 56px;
+                    height: 56px;
+                    background-color: $primary-font-accent-color;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
+                    -webkit-transition: background-color .2s linear;
+                    -o-transition: background-color .2s linear;
+                    transition: background-color .2s linear;
+                }
+                
+                &-icon {
+                    display: block;
+                    width: 50%;
+                    height: 50%;
+                    fill: $primary-accent-color;
+                    -webkit-transition: fill .2s linear;
+                    -o-transition: fill .2s linear;
+                    transition: fill .2s linear;
+                }
+                
+                &-link:hover {
+                    background-color: $primary-accent-color;
+                }
+                
+                &-link:hover
+                &-icon {
+                    fill: $secondary-border-color;
+                }                 
+}
+
+.team__item:hover
+.team__socials {
+	opacity: 1;
+	-webkit-transform: translate(-10px, -10px);
+	    -ms-transform: translate(-10px, -10px);
+	        transform: translate(-10px, -10px);
+}
+
+.team__item:hover
+.team__img-box {
+	-webkit-transform: translate(-10px, -10px);
+	    -ms-transform: translate(-10px, -10px);
+	        transform: translate(-10px, -10px);
+	-webkit-box-shadow: 10px 10px $box-shadow-color;
+	        box-shadow: 10px 10px $box-shadow-color;
+}

@@ -1,0 +1,35 @@
+/*
+   Import partials below
+*/
+@import "fonts.scss";
+@import "helpers/variables.scss";
+@import "normalize.scss";
+
+@import "base.scss";
+
+
+/*components*/
+
+@import "components/list.scss";
+@import "components/link.scss";
+@import "components/wrapper.scss";
+@import "components/header.scss";
+@import "components/section__greeting.scss";
+@import "components/section__title.scss";
+@import "components/page-header.scss";
+@import "components/navigation.scss";
+@import "components/logo.scss";
+@import "components/navigation__list.scss";
+@import "components/header-section.scss";
+@import "components/services.scss";
+@import "components/team.scss";
+@import "components/team__socials.scss";
+@import "components/footer.scss";
+@import "components/footer__subscribe-form.scss";
+
+// @import "components";
+
+
+
+
+

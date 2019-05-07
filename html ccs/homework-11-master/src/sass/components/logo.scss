@@ -1,0 +1,13 @@
+.logo {
+	font-family: $primary-font;
+	font-weight: 700;
+	font-size: 30px;
+	color: $primary-font-color;
+	-webkit-transition: color .2s linear;
+	-o-transition: color .2s linear;
+    transition: color .2s linear;
+    
+    &:hover {
+        color: $primary-font-accent-color;
+    }
+}

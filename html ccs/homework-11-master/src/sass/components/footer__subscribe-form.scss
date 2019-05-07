@@ -1,0 +1,28 @@
+.subscribe-form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.subscribe-form__input {
+	font-family: $secondary-font;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 15px;
+	color: $third-font-color;
+	padding-left: 12px;
+}
+
+.subscribe-form__btn {
+	display: inline-block;
+	color: $primary-font-color;
+	font-family: $primary-font;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 12px 30px;
+	text-transform: uppercase;
+
+	border: none;
+	background-color: $button-bg-color;
+	cursor: pointer;
+}

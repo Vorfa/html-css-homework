@@ -1,0 +1,29 @@
+.header-section__greeting {
+	font-size: 72px;
+	color: $primary-font-color;
+	margin-bottom: 56px;
+}
+
+.header-section__title {
+	margin: 0;
+	padding: 0 50px;
+	text-align: center;
+	color: $primary-font-color;
+	font-family: $primary-font;
+	font-weight: 700;
+	font-size: 150px;
+	text-transform: uppercase;
+	margin-bottom: 110px;
+
+}
+
+.header-section__btn {
+	display: inline-block;
+	color: $primary-font-color;
+	border: 3px solid #fff;
+	font-family: $primary-font;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 12px 30px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+.footer {
+	border-top: 1px solid $footer-border-color;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 10px 0;
+}	
+
+.copyright {
+	color: $secondary-font-color;
+	font-family: $primary-font;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.author {
+	display: inline-block;
+	font-family: $primary-font;
+	font-weight: 400;
+	font-size: 14px;
+}
+.author:hover {
+	color: $primary-accent-color;
+}

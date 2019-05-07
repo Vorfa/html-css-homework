@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+}
+    
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul,li{
+    margin: 0;
+    padding:0;
+}
+
+
+.wrapper{   
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 70px; 
+}
+
+h2,p{
+    margin: 0;
+}
+
+
+
+/*HEADER*/
+
+header{
+    margin-bottom: 104px;  
+}
+
+.menu{
+    
+}
+
+.menu__list{
+
+    text-align: center;
+    list-style-type: none;
+    font-size: 0;           
+}
+
+.menu__list_item{
+    margin-right: 124px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu__list_item-lastchild{
+    margin: 0;
+}
+
+.menu__list_link{
+    display: block;
+    text-decoration: none;
+    color: #626262;
+}
+
+.menu__list_link:hover{
+    color: #03a9f4;
+}
+
+
+
+/* SECTION */
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border:0;
+    padding: 0;
+    white-space:nowrap;
+    clip-path:inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:hidden;
+}
+
+.main__information{
+    margin-bottom: 56px;
+    font-size: 0;
+}
+
+.main__img{
+    width: 420px;
+    margin-right: 60px;
+    display: inline-block;
+}
+
+.main__img-nomargin{
+    margin: 0;
+}
+
+.main__img_item{
+    border: 2px solid #626262;
+    margin-bottom: 32px;
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main__img_subtitle{
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+.main__img_title{
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 44px;
+}
+
+.main__img_info{
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+}
+
+.main__img-marginbtm{
+    margin-bottom: 135px;
+}
+
+
+
+/*BUTTON*/
+
+
+
+.main__btn{
+    display: block;
+    font-size: 20px;
+    color: #626262;
+    width: 164px;
+    height: 60px;
+    border: 2px solid #626262;
+    margin: 0 auto;
+    background: white;
+    line-height: 60px; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
